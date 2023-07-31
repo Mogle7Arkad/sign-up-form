@@ -6,4 +6,36 @@
 body{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.877);
+    margin: auto;
+}
+.wrapper{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+}
+.hero-image{
+    background: url(halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+.logo{
+    display: flex;
+    margin-top: 35%;
+    background: rgba(0, 0, 0, .5);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(248, 239, 239);
+}
+.logo img{
+    height: 80%;
+    width: 100px;
+    background: rgba(0, 0, 0, 0);
+    color: black;
 }
